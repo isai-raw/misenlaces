@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+header p {
+  font-family: Titillium Web;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 50px;
+  color: black;
+  text-align: center;
+}
+header p span {
+  font-weight: 300;
+}
+main {
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 50px);
+  font-weight: 400;
+}
+main picture {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+}
+main picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+}
+
+section p {
+  font-size: 24px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+  color: white;
+  width: 250px;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgba(0, 25, 253, 0.575);
+  border: solid 3px red;
+  border-radius: 8px;
+}
+.btn h2 {
+  text-align: center;
+  line-height: 64px;
+}
+a {
+  display: contents;
+  text-decoration: none;
+}
+
+.ig {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497d5 0%,
+    #fdf497d8 5%,
+    #fd5849c9 45%,
+    #d6249ecc 60%,
+    #2859ebd5 90%
+  );
+}
+.fb {
+  background-color: #4267b2d3;
+}
+
+.ws {
+  background-color: #25d365d0;
+}
